@@ -1,0 +1,38 @@
+img
+{
+    width: 300px;
+    height: 300px;
+}
+.cont
+{
+    padding: 30px;
+    display: flex;
+    /*background-color: red;*/
+    justify-content: space-between;
+}
+input[type='radio'] { 
+
+    transform: scale(2);
+    margin-top: 15px;
+
+}
+.cont>div
+{
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+}
+textarea,h2
+{
+    margin: auto;
+    text-align: center;
+}
+.divC
+{
+    width: fit-content;
+    margin: auto;
+}
+h2
+{
+    padding: 15px 0px;
+}
